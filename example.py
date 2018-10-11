@@ -13,8 +13,8 @@ from instabot import InstaBot
 from unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="",
-    password="",
+    login="colorful__nature",
+    password="chipsy",
     like_per_day=1500,
     comments_per_day=0,
     tag_list=['flowers','garden','gardening','firstpost','firstpic','firstphoto','nofilter','selfie','naturen','family','friend','sister'],
@@ -27,7 +27,7 @@ bot = InstaBot(
     unfollow_break_min=0,
     unfollow_break_max=0,
     log_mod=0,
-    proxy='',
+    proxy='mradoj:zvjmfKwG@184.174.70.155:29842',
     # List of list of words, each of which will be used to generate comment
     # For example: "This shot feels wow!"
     comment_list=[["this", "the", "your"],
